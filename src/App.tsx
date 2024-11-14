@@ -2,6 +2,7 @@ import "./App.css"
 import { Counter } from "./features/counter/Counter"
 import { Quotes } from "./features/quotes/Quotes"
 import logo from "./logo.svg"
+import { Counter2 } from "./features/counter2/Counter2"
 
 const App = () => {
   return (
@@ -9,6 +10,7 @@ const App = () => {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <Counter />
+        <Counter2 />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
