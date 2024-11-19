@@ -3,12 +3,16 @@ import { Counter } from "./features/counter/Counter"
 import { Quotes } from "./features/quotes/Quotes"
 import logo from "./logo.svg"
 import { Counter2 } from "./features/counter2/Counter2"
+import * as petstore from "./features/petstore"
 
 const App = () => {
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
+        
+        <petstore.Ui/>
+        
         <Counter />
         <Counter2 />
         <p>
