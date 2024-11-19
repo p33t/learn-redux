@@ -1,22 +1,20 @@
-learn-redux Repo
-Learning and experiments. Have a look at the commit history for a guide.
+`learn-redux` Repo
+================
+Learning and experiments. Have a look at the **commit history** for a guide.
 
 Notes:
-- Alternative naming convention to avoid writing, 'Petstore' on lots of vars / types / classes
+- **Alternative naming convention** to avoid writing 'Counter2' on lots of vars / types / classes
   - Just use `index.tsx` inside a folder to gather `UI` and `redux` elements
   - "Vertical" integration where a feature is self-contained
   - See [counter2](./src/features/counter2/index.tsx), [petstore](./src/features/petstore/index.tsx)
-- API generation & usage. See [guide](https://redux-toolkit.js.org/rtk-query/usage/code-generation) & [openapi-config.json](./openapi-config.json)
+- **API generation & usage**. See [guide](https://redux-toolkit.js.org/rtk-query/usage/code-generation) & [openapi-config.json](./openapi-config.json)
   - Note the guide is a little off. Use a JSON file (not a typescript file) or else you'll get:
   ```
   Encountered a TypeScript configfile, but neither esbuild-runner nor ts-node are installed.
   ```
 
 
-
-
-
-Original README below
+(Original README below)
 
 ---
 
